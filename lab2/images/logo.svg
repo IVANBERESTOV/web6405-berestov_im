@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="65.235573mm"
+   height="32.803894mm"
+   viewBox="0 0 65.235574 32.803894"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2"
+     inkscape:cx="222"
+     inkscape:cy="95.25"
+     inkscape:window-width="2556"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6"
+     showborder="false"
+     borderlayer="false"
+     inkscape:antialias-rendering="true"
+     inkscape:clip-to-page="false">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-44.900391"
+       originy="-100.0449"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="94.971449"
+       y="50.937068"
+       width="59.981968"
+       height="32.133197"
+       id="rect2" />
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.55686275;"
+         offset="0.2613968"
+         id="stop4" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="79.978638"
+       y1="122.4951"
+       x2="95.052559"
+       y2="122.4951"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient4"
+       gradientUnits="userSpaceOnUse"
+       x1="79.978638"
+       y1="122.4951"
+       x2="95.052559"
+       y2="122.4951"
+       gradientTransform="translate(0.03164776,0.37556523)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient5"
+       gradientUnits="userSpaceOnUse"
+       x1="79.978638"
+       y1="122.4951"
+       x2="95.052559"
+       y2="122.4951"
+       gradientTransform="translate(0.03187613,0.6955296)" />
+  </defs>
+  <g
+     id="g6"
+     inkscape:label="g6"
+     transform="matrix(4.3185777,0,0,5.6525106,-345.39395,-677.99411)">
+    <path
+       style="fill:url(#linearGradient3);fill-opacity:1;stroke-width:0.264583"
+       d="m 84.966166,119.96795 -4.987531,5.0766 10.019595,-0.0223 5.054329,-5.07659 z"
+       id="path1"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:url(#linearGradient4);fill-opacity:1;stroke-width:0.264583"
+       d="m 84.997813,120.34351 -4.987531,5.0766 10.019595,-0.0223 5.054329,-5.07659 z"
+       id="path1-6"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:url(#linearGradient5);fill-opacity:1;stroke-width:0.264583"
+       d="m 84.998042,120.66348 -4.987531,5.0766 10.035339,0.009 5.038585,-5.10808 z"
+       id="path1-9"
+       sodipodi:nodetypes="ccccc" />
+    <g
+       inkscape:label="Слой 1"
+       inkscape:groupmode="layer"
+       id="layer1" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:1.42804px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;writing-mode:lr-tb;direction:rtl;text-anchor:middle;fill:#2da02c;stroke-width:0.134884"
+       x="192.45071"
+       y="132.67706"
+       id="text1"
+       transform="matrix(1.0828011,0,-0.90951042,0.92353065,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:1.42804px;fill:#4eb10d;fill-opacity:1;stroke-width:0.134884"
+         x="192.45071"
+         y="132.67706">FILE</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.42804px;fill:#4eb10d;fill-opacity:1;stroke-width:0.134884"
+         x="192.45071"
+         y="134.46211"
+         id="tspan2">SERVER</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.06126631,0,0,0.04680811,79.978635,119.94566)"
+       id="text2"
+       style="font-weight:bold;font-size:5.33333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;writing-mode:lr-tb;direction:rtl;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#2da02c;stroke-width:1.00157" />
+  </g>
+</svg>
