@@ -1,0 +1,152 @@
+/*Текст, отступы, межстрочные интервалы*/
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #A1A1A1;
+    color: #000000;
+    line-height: 1.5;
+}
+
+/*Голова сайта*/
+.main-header {
+    background-color: #2D4F2D;
+    color: #4EB10D;
+    text-align: center;
+    padding: 20px 15px;
+    border-bottom: 4px solid #4EB10D;
+}
+
+/*Заголовок внутри головы сайта*/
+.main-header h1 {
+    margin: 0;
+    font-size: 32px;
+    display: flex;              /* flexible элемент */
+    align-items: center;        /* по вертикали */
+    justify-content: center;    /* по горизонтали */
+    gap: 12px;                  /* отступ */
+}
+
+/*Размер лого и отображение.
+Рисунок сделан в inkscape.*/
+.logo {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.main-nav {
+    background-color: #2D712D;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-nav a {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 18px;
+    margin: 0 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    background-color: #4EB10D;
+    color: #2D4F2D;
+}
+
+.main-nav a.active {
+    background-color: #2D4F2D;
+    color: #2D712D;
+}
+
+.content {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+/*Смысловая нагрузка оформлена в карточки, как,
+в гугл-формах или яндекс-формах*/
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #A1A1A1;
+    border-left: 6px solid #2D4F2D;
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #2D4F2D;
+    margin: 0 0 12px;
+    border-bottom: 2px dashed #A1A1A1;
+    padding-bottom: 8px;
+}
+
+.upload-form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #2D712D;
+}
+
+.upload-form input[type="file"],
+.upload-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #A1A1A1;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: #2D712D;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2D4F2D;
+}
+
+.files-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.files-table th,
+.files-table td {
+    border: 1px solid #A1A1A1;
+    padding: 10px 12px;
+}
+
+.files-table thead th {
+    background-color: #2D712D;
+    color: #FFFFFF;
+}
+
+/* Разное выравнивание по столбцам,
+специально названы классы столбцов по-разному */
+.col-name   { text-align: left; }
+.col-size   { text-align: center; }
+.col-date   { text-align: center; }
+.col-action { text-align: right; }
+
+.files-table tbody tr:nth-child(even) {
+    background-color: #DDDDDD;
+}
+
+.files-table a {
+    color: #2D712D;
+    font-weight: bold;
+}
