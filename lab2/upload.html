@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>File Server - Загрузка файла</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="main-header">
+    <h1>
+        <img src="images/logo.svg" alt="Логотип" class="logo">File Server
+    </h1>
+</header>
+
+<nav class="main-nav">
+    <a href="upload.html" class="active">Загрузить файл</a>
+    <a href="files.html">Мои файлы</a>
+    <a href="about.html">О проекте</a>
+</nav>
+
+<main class="content">
+
+    <section class="card">
+        <h2>Добро пожаловать!</h2>
+        <p>
+            <strong>File Server</strong> - HTML + CSS макет веб-сервиса загрузки файлов.
+            Здесь можно <b>загрузить</b> свой файл, посмотреть
+            список уже загруженных и узнать о проекте.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Загрузка файла</h2>
+        <p>Выберите файл на вашем устройстве.</p>
+
+        <form class="upload-form" action="#" method="post" enctype="multipart/form-data">
+            <label>
+                Выберите файл:
+                <input type="file" name="file">
+            </label>
+
+            <label>
+                Комментарий (необязательно):
+                <textarea name="comment" rows="3"
+                          placeholder="Например: отчёт за март"></textarea>
+            </label>
+
+            <button type="submit" class="btn">Загрузить на сервер</button>
+        </form>
+    </section>
+
+    <section class="card">
+        <h2>Возможности сервиса</h2>
+        <ul>
+            <li>Загрузка файлов любых форматов.</li>
+            <li>Скачивание загруженных ранее файлов.</li>
+            <li>Хранение файлов.</li>
+        </ul>
+        <p>
+            Посмотреть уже загруженные файлы можно на странице
+            <a href="files.html">«Мои файлы»</a>.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Правила загрузки</h2>
+        <ul>
+            <li>Максимальный размер файла - <b>2 ГБ</b>.</li>
+            <li>Разрешены любые расширения.</li>
+            <li>Файлы могут быть удалены без вашего ведома (и без моего тоже).</li>
+        </ul>
+    </section>
+
+</main>
+
+</body>
+</html>
