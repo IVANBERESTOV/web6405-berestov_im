@@ -1,0 +1,212 @@
+:root {
+    --color-bg: #A1A1A1;
+    --color-text: #000000;
+    --color-dark-green: #2D4F2D;
+    --color-green: #2D712D;
+    --color-light-green: #4EB10D;
+    --color-white: #FFFFFF;
+    --color-gray-row: #DDDDDD;
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*Текст, отступы, межстрочные интервалы*/
+.page {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+/*Голова сайта*/
+.header {
+    background-color: var(--color-dark-green);
+    color: var(--color-light-green);
+    text-align: center;
+    padding: 20px 15px;
+    border-bottom: 4px solid var(--color-light-green);
+}
+
+/*Заголовок внутри головы сайта*/
+.header__title {
+    margin: 0;
+    font-size: 32px;
+    display: flex;              /* flexible элемент */
+    align-items: center;        /* по вертикали */
+    justify-content: center;    /* по горизонтали */
+    gap: 12px;                  /* отступ */
+}
+
+/*Размер лого и отображение.
+Рисунок сделан в inkscape.*/
+.header__logo {
+    width: 60px;
+    height: 60px;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.header__logo:hover {
+    transform: rotate(360deg);
+}
+
+.nav {
+    background-color: var(--color-green);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav__link {
+    display: inline-block;
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 8px 18px;
+    margin: 0 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav__link:hover {
+    background-color: var(--color-light-green);
+    color: var(--color-dark-green);
+}
+
+.nav__link_active {
+    background-color: var(--color-dark-green);
+    color: var(--color-green);
+}
+
+.content {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+.content_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+/*Смысловая нагрузка оформлена в карточки, как,
+в гугл-формах или яндекс-формах*/
+.card {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-bg);
+    border-left: 6px solid var(--color-dark-green);
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    animation: cardAppear 0.6s ease-out;
+}
+
+.content_grid .card {
+    margin-bottom: 0;
+}
+
+.card__title {
+    color: var(--color-dark-green);
+    margin: 0 0 12px;
+    border-bottom: 2px dashed var(--color-bg);
+    padding-bottom: 8px;
+}
+
+.form__label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.form__label_checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.form__input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid var(--color-bg);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.form__checkbox {
+    width: auto;
+    margin: 0;
+}
+
+.form__btn {
+    margin-top: 15px;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-weight: bold;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form__btn:hover {
+    background-color: var(--color-dark-green);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table__col {
+    border: 1px solid var(--color-bg);
+    padding: 10px 12px;
+}
+
+.table thead .table__col {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+
+/* Разное выравнивание по столбцам,
+специально названы классы столбцов по-разному */
+.table__col_name   { text-align: left; }
+.table__col_size   { text-align: center; }
+.table__col_date   { text-align: center; }
+.table__col_action { text-align: right; }
+
+.table tbody tr:nth-child(even) {
+    background-color: var(--color-gray-row);
+}
+
+.table__link {
+    color: var(--color-green);
+    font-weight: bold;
+}
+
+.table__wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
